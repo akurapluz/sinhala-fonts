@@ -4,19 +4,7 @@
  * Do not edit manually — regenerated on every font upload.
  */
 
-@font-face {
-  font-family: 'bindumathittf';
-  font-display: swap;
-  src: url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/bindumathittf/bindumathittf.ttf') format('truetype');
-}
 
-@font-face {
-  font-family: 'ganganee';
-  font-display: swap;
-  src: url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/ganganee/ganganee.woff2') format('woff2'),
-       url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/ganganee/ganganee.woff') format('woff'),
-       url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/ganganee/ganganee.ttf') format('truetype');
-}
 
 @font-face {
   font-family: 'bindumathi';
@@ -34,13 +22,6 @@
        url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/emanee/emanee.ttf') format('truetype');
 }
 
-.font-bindumathittf {
-  font-family: 'bindumathittf', sans-serif;
-}
-
-.font-ganganee {
-  font-family: 'ganganee', sans-serif;
-}
 
 .font-bindumathi {
   font-family: 'bindumathi', sans-serif;
