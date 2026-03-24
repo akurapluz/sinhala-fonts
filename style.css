@@ -1,6 +1,6 @@
 /*
  * AkuraPluz — Font CSS
- * Auto-generated 2026-03-24 09:12:29 (WP time)
+ * Auto-generated 2026-03-24 09:56:24 (WP time)
  * Do not edit manually — regenerated on every font upload.
  */
 
@@ -26,6 +26,14 @@
        url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/bindumathi/bindumathi.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'emanee';
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/emanee/emanee.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/emanee/emanee.woff') format('woff'),
+       url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/emanee/emanee.ttf') format('truetype');
+}
+
 .font-bindumathittf {
   font-family: 'bindumathittf', sans-serif;
 }
@@ -36,4 +44,8 @@
 
 .font-bindumathi {
   font-family: 'bindumathi', sans-serif;
+}
+
+.font-emanee {
+  font-family: 'emanee', sans-serif;
 }
