@@ -3,7 +3,7 @@
  * Version: 1.0.0
  * Author: Samith D Dilshan
  * Author Site: Dulaksha.com
- * Generated: 2026-03-25 05:07:51 (WP time)
+ * Generated: 2026-03-25 05:13:30 (WP time)
  * Description: Sinhala font integration for web use
  * License: Open Source
  * Note: Do not edit manually — regenerated on every font upload.
@@ -12,22 +12,30 @@
 @font-face {
   font-family: 'malithi';
   font-display: swap;
-  src: url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/malithi/malithi.woff') format('woff'),
-       url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/malithi/malithi.ttf') format('truetype');
+  src: url('https://cdn.akurapluz.dulaksha.com/fonts/malithi/malithi.woff') format('woff'),
+       url('https://cdn.akurapluz.dulaksha.com/fonts/malithi/malithi.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'emanee';
   font-display: swap;
-  src: url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/emanee/emanee.woff') format('woff');
+  src: url('https://cdn.akurapluz.dulaksha.com/fonts/emanee/emanee.woff') format('woff');
 }
 
 @font-face {
   font-family: 'UN-Ganganee';
   font-display: swap;
-  src: url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/un-ganganee/un-ganganee.woff2') format('woff2'),
-       url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/un-ganganee/un-ganganee.woff') format('woff'),
-       url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/un-ganganee/un-ganganee.ttf') format('truetype');
+  src: url('https://cdn.akurapluz.dulaksha.com/fonts/un-ganganee/un-ganganee.woff2') format('woff2'),
+       url('https://cdn.akurapluz.dulaksha.com/fonts/un-ganganee/un-ganganee.woff') format('woff'),
+       url('https://cdn.akurapluz.dulaksha.com/fonts/un-ganganee/un-ganganee.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ganganee';
+  font-display: swap;
+  src: url('https://cdn.akurapluz.dulaksha.com/fonts/ganganee/ganganee.woff2') format('woff2'),
+       url('https://cdn.akurapluz.dulaksha.com/fonts/ganganee/ganganee.woff') format('woff'),
+       url('https://cdn.akurapluz.dulaksha.com/fonts/ganganee/ganganee.ttf') format('truetype');
 }
 
 .font-malithi {
@@ -40,4 +48,8 @@
 
 .font-un-ganganee {
   font-family: 'UN-Ganganee', sans-serif;
+}
+
+.font-ganganee {
+  font-family: 'ganganee', sans-serif;
 }
