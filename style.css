@@ -1,7 +1,12 @@
 /*
  * AkuraPluz — Font CSS
- * Auto-generated 2026-03-24 13:04:23 (WP time)
- * Do not edit manually — regenerated on every font upload.
+ * Version: 1.0.0
+ * Author: Samith D Dilshan
+ * Author Site: Dulaksha.com
+ * Generated: 2026-03-25 05:00:46 (WP time)
+ * Description: Sinhala font integration for web use
+ * License: Open Source
+ * Note: Do not edit manually — regenerated on every font upload.
  */
 
 @font-face {
@@ -11,6 +16,16 @@
        url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/malithi/malithi.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'emanee';
+  font-display: swap;
+  src: url('https://raw.githubusercontent.com/akurapluz/sinhala-fonts/main/fonts/emanee/emanee.woff') format('woff');
+}
+
 .font-malithi {
   font-family: 'malithi', sans-serif;
+}
+
+.font-emanee {
+  font-family: 'emanee', sans-serif;
 }
