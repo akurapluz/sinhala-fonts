@@ -3,7 +3,7 @@
  * Version: 1.0.0
  * Author: Samith D Dilshan
  * Author Site: Dulaksha.com
- * Generated: 2026-03-25 06:05:02 (WP time)
+ * Generated: 2026-03-25 06:07:19 (WP time)
  * Description: Sinhala font integration for web use
  * License: Open Source
  * Note: Do not edit manually — regenerated on every font upload.
@@ -12,7 +12,9 @@
 @font-face {
   font-family: 'bindumathi';
   font-display: swap;
-  src: url('https://cdn.akurapluz.dulaksha.com/fonts/bindumathi/bindumathi.ttf') format('truetype');
+  src: url('https://cdn.akurapluz.dulaksha.com/fonts/bindumathi/bindumathi.woff2') format('woff2'),
+       url('https://cdn.akurapluz.dulaksha.com/fonts/bindumathi/bindumathi.woff') format('woff'),
+       url('https://cdn.akurapluz.dulaksha.com/fonts/bindumathi/bindumathi.ttf') format('truetype');
 }
 
 .font-bindumathi {
