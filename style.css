@@ -3,7 +3,7 @@
  * Version: 1.0.0
  * Author: Samith D Dilshan
  * Author Site: Dulaksha.com
- * Generated: 2026-03-28 10:55:20 (WP time)
+ * Generated: 2026-03-28 13:10:18 (WP time)
  * Description: Sinhala font integration for web use
  * License: Open Source
  * Note: Do not edit manually — regenerated on every font upload.
@@ -17,24 +17,24 @@
        url('https://cdn.akurapluz.dulaksha.com/fonts/bindumathi/bindumathi.ttf') format('truetype');
 }
 
+.font-bindumathi {
+  font-family: 'bindumathi', sans-serif;
+}
+
 @font-face {
   font-family: 'malithi';
   font-display: swap;
   src: url('https://cdn.akurapluz.dulaksha.com/fonts/malithi/malithi.ttf') format('truetype');
 }
 
+.font-malithi {
+  font-family: 'malithi', sans-serif;
+}
+
 @font-face {
   font-family: 'Roboto-Bold';
   font-display: swap;
   src: url('https://cdn.akurapluz.dulaksha.com/fonts/roboto-bold/roboto-bold.ttf') format('truetype');
-}
-
-.font-bindumathi {
-  font-family: 'bindumathi', sans-serif;
-}
-
-.font-malithi {
-  font-family: 'malithi', sans-serif;
 }
 
 .font-roboto-bold {
