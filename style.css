@@ -4,7 +4,7 @@
  * CDN: https://cdn.akurapluz.dulaksha.com/style.css
  * Usage: <link rel="stylesheet" href="https://cdn.akurapluz.dulaksha.com/style.css">
  *        <p class="font-bindumathi">ආයුබෝවන්</p>
- * Generated: 2026-03-30 09:53:00
+ * Generated: 2026-03-30 10:05:16
  * License: Open Source
  */
 
@@ -36,6 +36,14 @@
        url('https://cdn.akurapluz.dulaksha.com/fonts/emanee/emanee.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'ganganee';
+  font-display: swap;
+  src: url('https://cdn.akurapluz.dulaksha.com/fonts/ganganee/ganganee.woff2') format('woff2'),
+       url('https://cdn.akurapluz.dulaksha.com/fonts/ganganee/ganganee.woff') format('woff'),
+       url('https://cdn.akurapluz.dulaksha.com/fonts/ganganee/ganganee.ttf') format('truetype');
+}
+
 .font-bindumathi {
   font-family: 'bindumathi', sans-serif;
 }
@@ -50,4 +58,8 @@
 
 .font-emanee {
   font-family: 'emanee', sans-serif;
+}
+
+.font-ganganee {
+  font-family: 'ganganee', sans-serif;
 }
