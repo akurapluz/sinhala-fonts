@@ -1,6 +1,6 @@
 {
     "name": "akurapluz",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "AkuraPluz \u2014 Sinhala Font CSS Library. Use Sinhala fonts on any website like FontAwesome.",
     "main": "style.css",
     "style": "style.css",
@@ -17,7 +17,8 @@
         "bindumathi",
         "malithi",
         "roboto-bold",
-        "emanee"
+        "emanee",
+        "ganganee"
     ],
     "author": "Samith D Dilshan <samith@dulaksha.com>",
     "license": "MIT",
