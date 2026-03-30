@@ -4,7 +4,7 @@
  * CDN: https://cdn.akurapluz.dulaksha.com/style.css
  * Usage: <link rel="stylesheet" href="https://cdn.akurapluz.dulaksha.com/style.css">
  *        <p class="font-bindumathi">ආයුබෝවන්</p>
- * Generated: 2026-03-30 10:05:16
+ * Generated: 2026-03-30 11:21:05
  * License: Open Source
  */
 
@@ -19,7 +19,9 @@
 @font-face {
   font-family: 'malithi';
   font-display: swap;
-  src: url('https://cdn.akurapluz.dulaksha.com/fonts/malithi/malithi.ttf') format('truetype');
+  src: url('https://cdn.akurapluz.dulaksha.com/fonts/malithi/malithi.woff2') format('woff2'),
+       url('https://cdn.akurapluz.dulaksha.com/fonts/malithi/malithi.woff') format('woff'),
+       url('https://cdn.akurapluz.dulaksha.com/fonts/malithi/malithi.ttf') format('truetype');
 }
 
 @font-face {
