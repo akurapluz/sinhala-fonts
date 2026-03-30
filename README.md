@@ -33,6 +33,7 @@ Add the class to any element:
 | malithi | `.font-malithi` |
 | Roboto-Bold | `.font-roboto-bold` |
 | emanee | `.font-emanee` |
+| ganganee | `.font-ganganee` |
 
 ## WordPress Integration
 
