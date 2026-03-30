@@ -1,6 +1,6 @@
 """
-AkuraPluz v1.0.1 — Sinhala Font CSS Library
-Generated: 2026-03-30 10:05:19
+AkuraPluz v1.0.2 — Sinhala Font CSS Library
+Generated: 2026-03-30 11:21:08
 
 Usage:
     from akurapluz import stylesheet_link, font_class
@@ -14,7 +14,7 @@ Usage:
     # Add to context: {'akp_link': stylesheet_link()}
 """
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 __author__  = "Samith D Dilshan"
 __license__ = "MIT"
 
