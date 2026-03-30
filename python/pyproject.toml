@@ -1,10 +1,10 @@
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
-build-backend = "setuptools.backends.legacy:build"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "akurapluz"
-version = "1.0.1"
+version = "1.0.2"
 description = "AkuraPluz — Sinhala Font CSS Library. Use Sinhala fonts on any website like FontAwesome."
 readme = "README.md"
 license = {text = "MIT"}
