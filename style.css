@@ -1,12 +1,11 @@
-/*
- * AkuraPluz — Font CSS
- * Version: 1.0.0
- * Author: Samith D Dilshan
- * Author Site: Dulaksha.com
- * Generated: 2026-03-28 13:10:18 (WP time)
- * Description: Sinhala font integration for web use
+/*!
+ * AkuraPluz v3.0 — Sinhala Font CSS Library
+ * npm: akurapluz
+ * CDN: https://cdn.akurapluz.dulaksha.com/style.css
+ * Usage: <link rel="stylesheet" href="https://cdn.akurapluz.dulaksha.com/style.css">
+ *        <p class="font-bindumathi">ආයුබෝවන්</p>
+ * Generated: 2026-03-30 09:53:00
  * License: Open Source
- * Note: Do not edit manually — regenerated on every font upload.
  */
 
 @font-face {
@@ -17,18 +16,10 @@
        url('https://cdn.akurapluz.dulaksha.com/fonts/bindumathi/bindumathi.ttf') format('truetype');
 }
 
-.font-bindumathi {
-  font-family: 'bindumathi', sans-serif;
-}
-
 @font-face {
   font-family: 'malithi';
   font-display: swap;
   src: url('https://cdn.akurapluz.dulaksha.com/fonts/malithi/malithi.ttf') format('truetype');
-}
-
-.font-malithi {
-  font-family: 'malithi', sans-serif;
 }
 
 @font-face {
@@ -37,6 +28,26 @@
   src: url('https://cdn.akurapluz.dulaksha.com/fonts/roboto-bold/roboto-bold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'emanee';
+  font-display: swap;
+  src: url('https://cdn.akurapluz.dulaksha.com/fonts/emanee/emanee.woff2') format('woff2'),
+       url('https://cdn.akurapluz.dulaksha.com/fonts/emanee/emanee.woff') format('woff'),
+       url('https://cdn.akurapluz.dulaksha.com/fonts/emanee/emanee.ttf') format('truetype');
+}
+
+.font-bindumathi {
+  font-family: 'bindumathi', sans-serif;
+}
+
+.font-malithi {
+  font-family: 'malithi', sans-serif;
+}
+
 .font-roboto-bold {
   font-family: 'Roboto-Bold', sans-serif;
+}
+
+.font-emanee {
+  font-family: 'emanee', sans-serif;
 }
